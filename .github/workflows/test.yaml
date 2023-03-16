@@ -15,7 +15,7 @@ jobs:
         features:
           - swiftly
         baseImage:
-          - ubuntu:jammy
+          - mcr.microsoft.com/devcontainers/base:jammy
     steps:
       - uses: actions/checkout@v3
 
@@ -33,7 +33,7 @@ jobs:
         features:
           - swiftly
         baseImage:
-          - ubuntu:jammy
+          - mcr.microsoft.com/devcontainers/base:jammy
     steps:
       - uses: actions/checkout@v3
 
