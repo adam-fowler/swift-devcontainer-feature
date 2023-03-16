@@ -28,7 +28,8 @@ cleanup()
 trap cleanup EXIT $?
 
 # swiftly requires curl
-apt install curl
+apt-get update
+apt-get install -y curl
 
 echo "Downloading patrickfreed/swiftly"
 git clone https://github.com/patrickfreed/swiftly "$TEMPDIR"
