@@ -1,5 +1,5 @@
 {
-    "image": "swift:5.7",
+    "image": "ubuntu:jammy",
     "customizations": {
         "vscode": {
             // Set *default* container specific settings.json values on container create.
@@ -8,8 +8,7 @@
             },
             // Add the IDs of extensions you want installed when the container is created.
             "extensions": [
-                "sswg.swift-lang"
-            ]
+                "mads-hartmann.bash-ide-vscode"            ]
         }
     },
     "features": {
