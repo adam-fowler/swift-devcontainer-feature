@@ -18,8 +18,8 @@
         },
         "ghcr.io/devcontainers/features/git:1": {
             "ppa": "false"
-        }
+        },
+        "ghcr.io/adam-fowler/swift-devcontainer-feature/swiftly:0": {}
     },
-    "remoteUser": "vscode",
-    "postCreateCommand": "swift --version"
+    "remoteUser": "vscode"
 }

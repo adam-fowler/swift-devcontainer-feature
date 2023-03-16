@@ -1,9 +1,18 @@
 {
     "name": "swiftly",
     "id": "swiftly",
-    "version": "0.1.0",
-    "description": "A feature that installs swiftly the swift installer.",
-    "options": {},
+    "version": "0.1.1",
+    "description": "A feature that installs Swift using swiftly the swift installer.",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Version of Swift"
+        }
+    },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils",
         "ghcr.io/devcontainers/features/git"
