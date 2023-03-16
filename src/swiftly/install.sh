@@ -38,5 +38,5 @@ git checkout bootstrap
 export SWIFTLY_BIN_DIR=/usr/local/bin
 source ./install/swiftly-install.sh -y
 
-swiftly install latest
-swiftly use latest
+#swiftly install latest
+#swiftly use latest
