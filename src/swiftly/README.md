@@ -1,7 +1,7 @@
 
 # swiftly (swiftly)
 
-A feature that installs swiftly the swift installer.
+A feature that installs Swift using swiftly the swift installer.
 
 ## Example Usage
 
@@ -15,7 +15,7 @@ A feature that installs swiftly the swift installer.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-
+| version | Version of Swift | string | latest |
 
 
 
